@@ -20,10 +20,10 @@ import com.zoho.pom.LoginPage;
 public class BaseClass {
 	
 	//static {
-	//	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+	//	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");//
 	//}
 	
-	
+	// Static for one copy
 	public static WebDriver driver;
 	
 	@BeforeTest
